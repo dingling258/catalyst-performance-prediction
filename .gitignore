@@ -1,0 +1,32 @@
+# 数据文件
+*.xlsx
+*.csv
+data.xlsx
+*.npy
+data/*.xlsx
+data/*.csv
+
+# 模型文件
+*.pkl
+models/*.pkl
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 仅排除大型或临时图像文件
+temp_*.png
+temp_*.jpg
+large_*.png
+raw_*.png
+# 但允许结果图像上传
+# results/*.png 可以上传
